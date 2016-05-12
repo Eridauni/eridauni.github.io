@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: QuickScythe
+title: Eridauni
 email: QuickScythe@gmail.com
-description: This site is all about me and my projects. If you want to learn more about me, don't be afraid to contact me via twitter or email!
+description: This is the site for the Eridani Minecraft server. Feel free to post questions in the forums, and message us on our various social media sites.
 
-url: "https://quickscythe.github.io" # the base hostname & protocol for your site
+url: "https://eridani.github.io" # the base hostname & protocol for your site
 twitter_username: QuickScythe_Gaming
 github_username:  QuickScythe
 youtube_username: QuickScythe_Gaming
@@ -18,8 +18,8 @@ codepen_username: Sky_General109
 
 
 pages:
-  -About
-  -Resume
+  -Shop
+  -Stats
 # Build settings
 markdown: kramdown
 

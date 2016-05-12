@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+
+ 
+
+  <div class="post-list">
+    {% for post in site.posts %}
+      <ul class="post">
+        <li>
+          
+          <span class="post-meta">Posted by {{ post.author }} on {{ post.day }}.</span>
+          <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        </li>
+        <li>
+          <p>{{ post.excerpt }}</p>
+        </li>
+      </ul>
+    {% endfor %}
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+
+<div class="projects">
+	<h3 class="projects-head">Projects</h3>
+	<ul>
+		<li><a href="http://FBLA-Game.github.io">Trinnorica</a></li>
+		<li><a href="http://Eridauni.github.io">Eridauni</a></li>
+		<li><a href="http://cloudbox.hol.es">Rumorg</a></li>
+	</ul>
+</div>

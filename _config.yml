@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: QuickScythe
+email: QuickScythe@gmail.com
+description: This site is all about me and my projects. If you want to learn more about me, don't be afraid to contact me via twitter or email!
+
+url: "https://quickscythe.github.io" # the base hostname & protocol for your site
+twitter_username: QuickScythe_Gaming
+github_username:  QuickScythe
+youtube_username: QuickScythe_Gaming
+codepen_username: Sky_General109
+
+
+pages:
+  -About
+  -Resume
+# Build settings
+markdown: kramdown
+

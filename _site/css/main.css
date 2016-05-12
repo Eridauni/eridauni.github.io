@@ -1,5 +1,5 @@
 .site-header {
-  background: #2ecc71; }
+  background: #35404F; }
 
 /**
  * Reset some basic elements
@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #FFFFFF;
+  background-color: #FFF;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -69,13 +69,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #424242;
+  color: #4AAAA5;
   text-decoration: underline; }
   a:visited {
-    color: black;
+    color: #040a0a;
     text-decoration: underline; }
   a:hover {
-    color: #2ecc71;
+    color: #35404F;
     text-decoration: none; }
 
 /**
@@ -147,7 +147,8 @@ pre {
   max-width: 70%; }
 
 .projects {
-  max-width: 20%; }
+  max-width: 20%;
+  color: #FFF; }
 
 /**
  * Clearfix
@@ -185,9 +186,9 @@ pre {
   margin-bottom: 0;
   float: left;
   text-decoration: none;
-  color: #FFFFFF; }
+  color: #FFF; }
   .site-title:visited {
-    color: #FFFFFF; }
+    color: #FFF; }
 
 .site-nav {
   float: right;
@@ -195,7 +196,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #424242;
+    color: #4AAAA5;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -204,7 +205,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #FFFFFF;
+      background-color: #FFF;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -328,7 +329,7 @@ pre {
 
 .post-title:hover {
   text-decoration: none;
-  color: #2ecc71; }
+  color: #35404F; }
 
 .post-content {
   margin-bottom: 30px; }
